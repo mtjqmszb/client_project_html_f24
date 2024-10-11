@@ -1,0 +1,60 @@
+body {
+    background-color: #e9efff;
+    color:black;
+}
+
+h1 {
+    font: 36px "Noto Sans CJK Black";
+    left: 50%;
+    text-align: center;
+}
+
+h2 {
+    font: 24px "Noto Sans CJK Black";
+    color: #00274C;
+}
+
+h3 {
+    font: 18px "Noto Sans CJK Black";
+    color: #385672;
+}
+
+p {
+    line-height: 2; 
+}
+
+img {
+    border: 5px solid #00274C; 
+    padding: 10px;
+    margin: 20px; 
+    border-top-right-radius: 30px; 
+    width: 90%;
+}
+
+li {
+    display: inline-block; 
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 776px){
+
+	img {
+        border: 5px solid #00274C; 
+        padding: 10px;
+        margin: 20px; 
+        border-top-right-radius: 30px; 
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1120px){
+	img {
+        border: 5px solid #00274C; 
+        padding: 10px;
+        margin: 20px; 
+        border-top-right-radius: 30px; 
+        width: 60%;
+    }
+	
+}
