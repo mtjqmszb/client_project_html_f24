@@ -18,16 +18,16 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="food_pantry.html">Food Pantry</a></li>
-                <li><a>CAPS</a></li>
+                <li><a class="current-page">CAPS</a></li>
                 <li><a href="first_gen.html">First Gen</a></li>
             </ul>
         </div>
-        <h1>CAPS at UMSI</h1>
+        <!-- <h1>CAPS at UMSI</h1> -->
+        <h1>Welcome to Counseling and Psychological Services (CAPS)</h1>
     </header>
 
 
     <main id="main">
-        <h1>Welcome to Counseling and Psychological Services (CAPS)</h1>
         <p>We are happy to offer both in-person and virtual services. CAPS is committed to creating an environment based on our values of multicultural, multi-disciplinary and multi-theoretical practices that allow our diverse student body to access care, receive high quality services and take positive pathways to mental health. <br>
             Our Front Desk (Michigan Union 4th Floor) is open and ready to help support you -- staff members are available throughout the day to assist you with your needs to answer questions, and get you to the right place. We can be reached by phone at: (734) 764-8312.</p>
             <img src="images/MCOMMONS-Michigan_Union.jpg" width="1000" alt="MCOMMONS-Michigan_Union">
@@ -39,9 +39,12 @@
 
 
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+        <p>MSI Academic Advising © Copyrights <span id="year"></span> | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
     </footer>
-    
 </body>
-
 </html>
+
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>

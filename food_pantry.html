@@ -14,7 +14,7 @@
             <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" class="logo" alt="UMSI Logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a>Food Pantry</a></li>
+                <li><a class="current-page">Food Pantry</a></li>
                 <li><a href="CAPS.html">CAPS</a></li>
                 <li><a href="first_gen.html">First Gen</a></li>
             </ul>
@@ -23,16 +23,15 @@
     </header>
 
     <main id="main">
-        <h1>WELCOME TO MAIZE & BLUE CUPBOARD</h1>
         <h2>OUR MISSION</h2>
         <div>
             <p>To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others. </p>
-            <img src="images/MCOMMONS-CampusFarmStandOpening-01.jpg.jpg" width="1000" alt="MCOMMONS-CampusFarmStandOpening-01"><br>
+            <img src="images/MCOMMONS-CampusFarmStandOpening-01.jpg.jpg" alt="MCOMMONS-CampusFarmStandOpening-01"><br>
         </div>
 
         <h1>MAKE AN APPOINTMENT NOW</h1>
         <p>Shopping at the Maize and Blue Cupboard is by appointment only.  Please make an appointment by visiting our sign up page here here.<br></p>
-        <img src="images/MCOMMONS_DSC03486.jpg" width="1000" alt="MCOMMONS_DSC03486"><br>
+        <img src="images/MCOMMONS_DSC03486.jpg" alt="MCOMMONS_DSC03486"><br>
 
     
         <div></div>
@@ -41,9 +40,12 @@
         <div></div>
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+        <p>MSI Academic Advising © Copyrights <span id="year"></span> | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
     </footer>
-    
 </body>
-
 </html>
+
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
