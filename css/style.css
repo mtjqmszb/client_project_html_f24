@@ -87,7 +87,6 @@ li {
     align-items: center;
     background-color: #00274C;
     color: white;
-    border-bottom: solid 6px #385672;
 }
 
 .guide .logo {
@@ -115,6 +114,7 @@ li {
     flex: 1; 
     margin: 0;
     padding: 3px;
+    position: relative;
 }
 
 .guide ul li a:hover {
@@ -127,8 +127,22 @@ li {
     display: block;
     background-color: #00274C;
     white-space: nowrap; 
-    font-size: 22px;
+    font-size: 18px;
     margin:0;
+}
+
+.guide ul li::before {
+    content: ""; 
+    position: absolute;
+    left: -1px; 
+    top: 25%; 
+    height: 50%; 
+    width: 2px; 
+    background-color: #385672; 
+}
+
+.guide ul li:first-child::before {
+    display: none;
 }
 
 .guide ul li .current-page {
@@ -139,7 +153,7 @@ li {
 .guide .current-page {
     background-color: #eff2fb;
     color: black;
-    padding: 5px; 
+    padding: 0 5px;  
     border-radius: 5px; 
     display: block; 
     box-sizing: border-box; 
@@ -222,10 +236,10 @@ li {
 
     .img_par_grid {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-        gap: 20px; /* Space between the columns */
-        align-items: start; /* Aligns items at the top of the row */
-        margin: 20px 0; /* Optional: adds space around the grid container */
+        grid-template-columns: 1fr 1fr;
+        gap: 20px; 
+        align-items: start; 
+        margin: 20px 0; 
         padding: 10px;
         align-items: stretch;
     }
@@ -239,7 +253,7 @@ li {
     }
     
     .img_par_grid img {
-        max-width: 90%; /* Ensures the image fits within its grid cell */
+        max-width: 90%; 
         height: auto;
     }
 
@@ -256,15 +270,13 @@ li {
     }
 
     
-    
-    .guide .logo {
-        max-width: 50px; /* Control logo width */
+
+    .guide ul li::before {
+        display: none; 
     }
     
-    
-    /* Set ul to display flex to align items horizontally */
     .guide ul {
-        width: 50%; /* Ensure ul spans across available width */
+        width: 55%; 
     }
     
     .guide ul li a {
@@ -272,7 +284,7 @@ li {
     }
     
     .guide .current-page {
-        padding: 10px 20px; /* Adjust padding to increase background size */
+        padding: 10px 20px; 
         font-weight: bold;
         font-size: 18px;
     }
