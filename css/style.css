@@ -24,7 +24,7 @@ body {
 
 
 h1 {
-    font: 24px "Noto Sans CJK Black";
+    font: 28px "Noto Sans CJK Black";
     color: black;
     left: 50%;
     text-align: center;
@@ -33,17 +33,17 @@ h1 {
 }
 
 h2 {
-    font: 18px "Noto Sans CJK Black";
+    font: 20px "Noto Sans CJK Black";
     color: #00274C;
 }
 
 h3 {
-    font: 14px "Noto Sans CJK Black";
+    font: 18px "Noto Sans CJK Black";
     color: #385672;
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.3; 
 }
 
@@ -57,7 +57,7 @@ img {
 }
 
 figcaption {
-    font-size: 10px; 
+    font-size: 14px; 
     font-weight: bold;
     color: #385672; 
 }
@@ -68,7 +68,7 @@ ul {
 }
 
 li {
-    font-size: 14px;
+    font-size: 18px;
     margin-right: 20px;
 } 
 
@@ -88,31 +88,28 @@ li {
 }
 
 .guide .logo {
-    grid-column: 1 / 2; /* Place logo in the first column */
-    max-width: 30px; /* Control logo width */
+    grid-column: 1 / 2; 
+    max-width: 50px; 
     margin:0;
-    /* margin-left: 5px; */
     height: auto;
-    border-top-right-radius: 0; /* Remove rounding if it exists */
+    border-top-right-radius: 0; 
 }
 
-
-/* Set ul to display flex to align items horizontally */
 .guide ul {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
     list-style: none;
     padding: 0;
     margin: 0;
     gap:0;
-    grid-column: 2 / 6; /* Span remaining four columns for nav items */
-    width: 100%; /* Ensure ul spans across available width */
+    grid-column: 2 / 6; 
+    width: 100%; 
 }
 
-/* Style for each li in the navigation */
+
 .guide ul li {
     text-align: center;
-    flex: 1; /* Distribute each li evenly in the row */
+    flex: 1; 
     margin: 0;
     padding: 5px;
 }
@@ -126,12 +123,11 @@ li {
     text-decoration: none;
     display: block;
     background-color: #00274C;
-    white-space: nowrap; /* Prevent text from wrapping */
-    font-size: 12px;
+    white-space: nowrap; 
+    font-size: 18px;
     margin:0;
 }
 
-/* Style for the current page */
 .guide ul li .current-page {
     background-color: #eff2fb;
     color: #00274C;
@@ -140,10 +136,10 @@ li {
 .guide .current-page {
     background-color: #eff2fb;
     color: black;
-    padding: 5px 10px; /* Adjust padding to increase background size */
-    border-radius: 5px; /* Optional: add rounded corners */
-    display: block; /* Ensures the background covers the entire area */
-    box-sizing: border-box; /* Includes padding in element width */
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    display: block; 
+    box-sizing: border-box; 
 }
 
 .guide .current-page:hover {
@@ -169,7 +165,6 @@ li {
 }
 
 .ulgrid li {
-    /* font-size: 12px; */
     margin-right: 0;
     padding: 10px;
     border: 1px solid #ccc;
