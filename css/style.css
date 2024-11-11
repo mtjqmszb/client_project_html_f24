@@ -207,6 +207,30 @@ li {
     padding: 10px;
 }
 
+footer {
+    font-size: 12px;
+    color: #385672;
+    background-color: #f1f4f9; /* Light background for contrast */
+    padding: 15px 20px; /* Adds space inside the footer */
+    text-align: center; /* Centers text content */
+    border-top: 1px solid #d1d5db; /* Adds a subtle top border */
+}
+
+main {
+    margin: 0 0 40px 0;
+}
+
+footer a {
+    color: #385672;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+footer a:hover {
+    color: #00274C; 
+    text-decoration: underline; 
+}
+
 
 
 
