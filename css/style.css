@@ -24,29 +24,29 @@ body {
 
 
 h1 {
-    font: 28px "Noto Sans CJK Black" "Arial";
+    font: 30px "Noto Sans CJK Black" "Arial";
     font-weight: bold;
     color: black;
     left: 50%;
     text-align: center;
-    margin-top: 70px; 
+    margin-top: 80px; 
     border-bottom: 4px solid #FFCB05;
 }
 
 h2 {
-    font: 20px "Noto Sans CJK Black" "Arial";
+    font: 26px "Noto Sans CJK Black" "Arial";
     font-weight: bold;
     color: #00274C;
 }
 
 h3 {
-    font: 18px "Noto Sans CJK Black" "Arial";
+    font: 22px "Noto Sans CJK Black" "Arial";
     font-weight: bold;
     color: #385672;
 }
 
 p {
-    font: 18px "Noto Sans CJK Black" "Arial";
+    font: 22px "Noto Sans CJK Black" "Arial";
     line-height: 1.3; 
 }
 
@@ -71,7 +71,7 @@ ul {
 }
 
 li {
-    font: 18px "Noto Sans CJK Black" "Arial";
+    font: 22px "Noto Sans CJK Black" "Arial";
     margin-right: 20px;
 } 
 
@@ -114,7 +114,7 @@ li {
     text-align: center;
     flex: 1; 
     margin: 0;
-    padding: 5px;
+    padding: 3px;
 }
 
 .guide ul li a:hover {
@@ -127,7 +127,7 @@ li {
     display: block;
     background-color: #00274C;
     white-space: nowrap; 
-    font-size: 18px;
+    font-size: 22px;
     margin:0;
 }
 
@@ -139,7 +139,7 @@ li {
 .guide .current-page {
     background-color: #eff2fb;
     color: black;
-    padding: 5px 10px; 
+    padding: 5px; 
     border-radius: 5px; 
     display: block; 
     box-sizing: border-box; 
@@ -199,6 +199,7 @@ li {
 
 @media screen and (min-width:600px) {
     h1 {
+        margin-top: 90px; 
         font-size: 34px;
         border-bottom: 5px solid #FFCB05;
     }
